@@ -70,7 +70,7 @@ class DataTransformation:
         
     def initiate_data_transformation(self,train_data_path , test_data_path):
         try:
-           
+            print("Entered to Data Transformation......")
             train_df = pd.read_csv(train_data_path)
             test_df = pd.read_csv(test_data_path)
 
